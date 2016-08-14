@@ -1,0 +1,24 @@
+//prints out properties
+
+var nyc = {
+    fullName: "New York City",
+    mayor: "Bill de Blasio",
+    population: 8000000,
+    boroughs: 5
+};
+
+// write a for-in loop to print the value of nyc's properties
+for(var thing in nyc)
+console.log(thing);
+
+//prints out propertie's value using bracket notation. Cant use dot notation with variables
+var nyc = {
+    fullName: "New York City",
+    mayor: "Bill de Blasio",
+    population: 8000000,
+    boroughs: 5
+};
+
+// write a for-in loop to print the value of nyc's properties
+for(var thing in nyc)
+console.log(nyc[thing]);
